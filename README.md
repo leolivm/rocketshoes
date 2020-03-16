@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="devradar1" src="https://i.imgur.com/6rXsjJ0.png" width="920" heigth="518" />
+    <img alt="devradar2" src="https://i.imgur.com/1yfSSra.png" width="920" heigth="518" />
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  Rocketshoes
+</h3>
 
-In the project directory, you can run:
+<blockquote align="center">Projeto resultado do Bootcamp GoStack.</blockquote>
 
-### `yarn start`
+<p align="center">
+  <a href="http://sgeinformatica.com.br/">
+    <img alt="Made by Sge" src="https://i.imgur.com/Dm7Xym9.png" width="70" heigth="20">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :smiley: Aplicação e-commerce utilizando Redux para estados globais.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Usado para vendas online.
 
-### `yarn test`
+## :cold_sweat: Desafios encontrados:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- CSS Grid e Redux para controle de estados globais (ex: carrinho de compras).
 
-### `yarn build`
+## :computer: Tecnologias utilizadas:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚛️ ReacJS na web.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :dvd: Instalação:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Clone este repositorio.
+2. `cd e-commerce`<br />
+3. `yarn` para instalar as dependências.<br />
+4. `json-server server.json -p 3333` para iniciar o backend de testes na porta 3333.<br />
+5. `yarn start` para iniciar sua aplicação em `http://localhost:3000`.<br />
