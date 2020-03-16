@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="devradar1" src="https://i.imgur.com/6rXsjJ0.png" width="920" heigth="518" />
+    <img alt="devradar1" src="https://i.imgur.com/q2UoCJW.png" width="920" heigth="518" />
     <img alt="devradar2" src="https://i.imgur.com/1yfSSra.png" width="920" heigth="518" />
 </h1>
 
