@@ -32,5 +32,5 @@
 1. Clone este repositorio.
 2. `cd e-commerce`<br />
 3. `yarn` para instalar as dependências.<br />
-4. `json-server server.json -p 3333` para iniciar o backend de testes na porta 3333.<br />
+4. `json-server server.json -p 3333` para iniciar o backend de testes na porta `3333`.<br />
 5. `yarn start` para iniciar sua aplicação em `http://localhost:3000`.<br />
