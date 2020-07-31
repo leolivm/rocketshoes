@@ -4,7 +4,7 @@ import { bindActionCreators } from "redux";
 import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
-  MdDelete
+  MdDelete,
 } from "react-icons/md";
 import { formatPrice } from "../../util/format";
 import * as CartActions from "../../store/modules/cart/actions";
@@ -32,7 +32,7 @@ function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
           </tr>
         </thead>
         <tbody>
-          {cart.map(product => (
+          {cart.map((product) => (
             <tr>
               <td>
                 <img src={product.image} alt={product.title} />
@@ -80,19 +80,19 @@ function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
   );
 }
 
-const mapStateToProps = state => ({
-  cart: state.cart.map(product => ({
+const mapStateToProps = (state) => ({
+  cart: state.cart.map((product) => ({
     ...product,
-    subtotal: formatPrice(product.price * product.amount)
+    subtotal: formatPrice(product.price * product.amount),
   })),
   total: formatPrice(
     state.cart.reduce((total, product) => {
       return total + product.price * product.amount;
     }, 0)
-  )
+  ),
 });
 
-const mapDispatchToProps = dispatch =>
+const mapDispatchToProps = (dispatch) =>
   bindActionCreators(CartActions, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
