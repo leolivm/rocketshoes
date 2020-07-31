@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="devradar1" src="https://i.imgur.com/6rXsjJ0.png" width="920" heigth="518" />
+    <img alt="devradar1" src="https://i.imgur.com/q2UoCJW.png" width="920" heigth="518" />
     <img alt="devradar2" src="https://i.imgur.com/1yfSSra.png" width="920" heigth="518" />
 </h1>
 
@@ -32,5 +32,5 @@
 1. Clone este repositorio.
 2. `cd e-commerce`<br />
 3. `yarn` para instalar as dependências.<br />
-4. `json-server server.json -p 3333` para iniciar o backend de testes na porta 3333.<br />
+4. `json-server server.json -p 3333` para iniciar o backend de testes na porta `3333`.<br />
 5. `yarn start` para iniciar sua aplicação em `http://localhost:3000`.<br />
